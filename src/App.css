@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,112 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.mainConteiner {
+  width: 60%;
+  display: flex;
+  flex-direction: column;  
+  margin: 0 auto;
+  
+}
+
+.headConteiner {
+  width: 75%;  
+  margin-bottom: 5px;
+}
+
+.conteinerProjects {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* flex-flow: column wrap; */
+  width: 100%;
+  max-height: 1000px;  
+  
+}
+
+.itemProject {
+  width: 170px;
+  height: 300px; 
+  margin-bottom: 5px;
+  margin-right: 5px;
+  
+
+  
+}
+
+.itemProject:nth-child(1) {
+  height: 150px;
+}
+
+.itemProject:nth-child(2) {
+  height: 122px;
+}
+
+.itemProject:nth-child(3) {
+  height: 150px;
+}
+
+.itemProject:nth-child(4) {
+  height: 220px;
+}
+
+.itemProject:nth-child(5) {
+  height: 147px;
+}
+
+.itemProject:nth-child(6) {
+  height: 240px;
+}
+
+.itemProject:nth-child(7) {
+  height: 122px;
+}
+
+.itemProject:nth-child(8) {
+  height: 250px;
+}
+
+.itemProject:nth-child(9) {
+  height: 240px;
+}
+
+.itemProject:nth-child(10) {
+  height: 250px;
+}
+
+.itemProject:nth-child(11) {
+  height: 250px;
+}
+
+.itemProject:nth-child(12) {
+  height: 147px;
+}
+
+.itemProject:nth-child(13) {
+  height: 150px;
+}
+
+.itemProject:nth-child(14) {
+  height: 250px;
+}
+
+.itemProject:nth-child(15) {
+  height: 147px;
+}
+
+.itemProject:nth-child(16) {
+  height: 240px;
+}
+
+.selectedFilter {
+  background-color: #282c34;
+  color: white;
+}
+
+.unselectedFilter {
+  background-color: white;
+  color: black;
 }
